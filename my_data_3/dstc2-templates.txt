@@ -1,0 +1,18 @@
+api_call	api_call name="#name"
+bye	You are welcome!
+inform_name+offer_realtime	The realtime price of #name is #realtime
+inform_historical+offer_name	The historical price of #name is #historical
+inform_logo+offer_name	The logo of #name is #logo
+welcomemsg	Hello, what can I help you?
+inform_company+offer_name	The basic information of #name is #company
+inform_peer_company+offer_name	The peer company information of #name is #peer_company
+inform_insider_transaction+offer_name	The insider transaction information of #name is #insider_transaction
+inform_insider_summary+offer_name	The insider summary information of #name is #insider_summary
+inform_balance_sheet+offer_name	The balance sheet of #name is #balance_sheet
+inform_cashflow+offer_name	The cash flow of #name is #cashflow
+inform_keystats+offer_name	The key stats of #name is #keystats
+inform_income_statement+offer_name	The income statement of #name is #income_statement
+inform_financials+offer_name	The financials of #name is #financials
+inform_market_volume+offer_name	The realtime market volume is #market_volume
+inform_upcoming_event+offer_name	The upcoming event of #name is #upcoming_event
+inform_news+offer_name	The news of #name is #news

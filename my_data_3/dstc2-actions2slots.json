@@ -1,0 +1,65 @@
+{
+  "api_call": [
+    "name"
+  ],
+  "inform_name+offer_realtime": [
+    "realtime",
+    "name"
+  ],
+  "inform_historical+offer_name": [
+    "historical",
+    "name"
+  ],
+  "inform_logo+offer_name": [
+    "logo",
+    "name"
+  ],
+  "inform_company+offer_name": [
+    "company",
+    "name"
+  ],
+  "inform_peer_company+offer_name": [
+    "peer_company",
+    "name"
+  ],
+  "inform_insider_transaction+offer_name": [
+    "insider_transaction",
+    "name"
+  ],
+  "inform_insider_summary+offer_name": [
+    "insider_summary",
+    "name"
+  ],
+  "inform_balance_sheet+offer_name": [
+    "balance_sheet",
+    "name"
+  ],
+  "inform_cashflow+offer_name": [
+    "cashflow",
+    "name"
+  ],
+  "inform_keystats+offer_name": [
+    "keystats",
+    "name"
+  ],
+  "inform_income_statement+offer_name": [
+    "income_statement",
+    "name"
+  ],
+  "inform_financials+offer_name": [
+    "financials",
+    "name"
+  ],
+  "inform_market_volume+offer_name": [
+    "market_volume",
+    "name"
+  ],
+  "inform_upcoming_event+offer_name": [
+    "upcoming_event",
+    "name"
+  ],
+  "inform_news+offer_name": [
+    "news",
+    "name"
+  ]
+}

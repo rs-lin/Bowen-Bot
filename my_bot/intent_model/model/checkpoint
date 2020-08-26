@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/ruishan/0803_bot/my_bot/intent_models/gobot_dstc2_best/model13/policy"
+all_model_checkpoint_paths: "/home/ruishan/0803_bot/my_bot/intent_models/gobot_dstc2_best/model13/policy"

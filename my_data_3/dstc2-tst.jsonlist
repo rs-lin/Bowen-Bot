@@ -1,0 +1,187 @@
+{"speaker": 1, "text": "realtime price of BMWREP?", "goals": {"name": "BMWREP","slot":"realtime"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The realtime price of BMWREP is 22", "dialog_acts": [{"act": "inform_name+offer_realtime", "slots": [["name", "BMWREP"], ["realtime", "22"]]}]}
+
+{"speaker": 1, "text": "what's the basic information of BMWREP", "goals": {"name": "BMWREP","slot":"company"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The basic information of BMWREP is 25", "dialog_acts": [{"act": "inform_company+offer_name", "slots": [["name", "BMWREP"], ["company", "25"]]}]}
+
+{"speaker": 1, "text": "insider summary of BMWREP", "goals": {"name": "BMWREP","slot":"insider_summary"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The insider summary information of BMWREP is 28", "dialog_acts": [{"act": "inform_insider_summary+offer_name", "slots": [["name", "BMWREP"], ["insider_summary", "28"]]}]}
+
+{"speaker": 1, "text": "What is the cash flow of BMWREP", "goals": {"name": "BMWREP","slot":"cashflow"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The cash flow of BMWREP is 30", "dialog_acts": [{"act": "inform_cashflow+offer_name", "slots": [["name", "BMWREP"], ["cashflow", "30"]]}]}
+
+{"speaker": 1, "text": "upcoming event of BMWREP", "goals": {"name": "BMWREP","slot":"upcoming_event"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The upcoming event of BMWREP is 35", "dialog_acts": [{"act": "inform_upcoming_event+offer_name", "slots": [["name", "BMWREP"], ["upcoming_event", "35"]]}]}
+
+{"speaker": 1, "text": "what's the logo of BMWREP?", "goals": {"name": "BMWREP","slot":"logo"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The logo of BMWREP is 24", "dialog_acts": [{"act": "inform_logo+offer_name", "slots": [["name", "BMWREP"], ["logo", "24"]]}]}
+
+{"speaker": 1, "text": "Market volume of BMWREP", "goals": {"name": "BMWREP","slot":"financials"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The realtime market volume is 34", "dialog_acts": [{"act": "inform_market_volume+offer_name", "slots": [["name", "BMWREP"], ["market_volume", "34"]]}]}
+
+{"speaker": 1, "text": "what's the news of BMWREP", "goals": {"name": "BMWREP","slot":"news"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The news of BMWREP is 36", "dialog_acts": [{"act": "inform_news+offer_name", "slots": [["name", "BMWREP"], ["news", "36"]]}]}
+
+{"speaker": 1, "text": "what's the historical price of BMWREP?", "goals": {"name": "BMWREP","slot":"historical"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The historical price of BMWREP is 23", "dialog_acts": [{"act": "inform_historical+offer_name", "slots": [["name", "BMWREP"], ["historical", "23"]]}]}
+
+{"speaker": 1, "text": "insider transaction of BMWREP", "goals": {"name": "BMWREP","slot":"insider_transaction"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The insider transaction information of BMWREP is 27", "dialog_acts": [{"act": "inform_insider_transaction+offer_name", "slots": [["name", "BMWREP"], ["insider_transaction", "27"]]}]}
+
+{"speaker": 1, "text": "show the peer company of BMWREP", "goals": {"name": "BMWREP","slot":"peer_company"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The peer company information of BMWREP is 26", "dialog_acts": [{"act": "inform_peer_company+offer_name", "slots": [["name", "BMWREP"], ["peer_company", "26"]]}]}
+
+{"speaker": 1, "text": "show the logo of BMWREP?", "goals": {"name": "BMWREP","slot":"logo"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The logo of BMWREP is 24", "dialog_acts": [{"act": "inform_logo+offer_name", "slots": [["name", "BMWREP"], ["logo", "24"]]}]}
+
+{"speaker": 1, "text": "the logo of BMWREP?", "goals": {"name": "BMWREP","slot":"logo"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The logo of BMWREP is 24", "dialog_acts": [{"act": "inform_logo+offer_name", "slots": [["name", "BMWREP"], ["logo", "24"]]}]}
+
+{"speaker": 1, "text": "show the historical price of BMWREP?", "goals": {"name": "BMWREP","slot":"historical"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The historical price of BMWREP is 23", "dialog_acts": [{"act": "inform_historical+offer_name", "slots": [["name", "BMWREP"], ["historical", "23"]]}]}
+
+{"speaker": 1, "text": "the historical price of BMWREP?", "goals": {"name": "BMWREP","slot":"historical"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The historical price of BMWREP is 23", "dialog_acts": [{"act": "inform_historical+offer_name", "slots": [["name", "BMWREP"], ["historical", "23"]]}]}
+
+{"speaker": 1, "text": "show the realtime price of BMWREP?", "goals": {"name": "BMWREP","slot":"realtime"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The realtime price of BMWREP is 22", "dialog_acts": [{"act": "inform_name+offer_realtime", "slots": [["name", "BMWREP"], ["realtime", "22"]]}]}
+
+{"speaker": 1, "text": "the realtime price of BMWREP?", "goals": {"name": "BMWREP","slot":"realtime"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The realtime price of BMWREP is 22", "dialog_acts": [{"act": "inform_name+offer_realtime", "slots": [["name", "BMWREP"], ["realtime", "22"]]}]}
+
+{"speaker": 1, "text": "show the basic information of BMWREP", "goals": {"name": "BMWREP","slot":"company"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The basic information of BMWREP is 25", "dialog_acts": [{"act": "inform_company+offer_name", "slots": [["name", "BMWREP"], ["company", "25"]]}]}
+
+{"speaker": 1, "text": "the basic information of BMWREP", "goals": {"name": "BMWREP","slot":"company"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The basic information of BMWREP is 25", "dialog_acts": [{"act": "inform_company+offer_name", "slots": [["name", "BMWREP"], ["company", "25"]]}]}
+
+{"speaker": 1, "text": "show the peer company of BMWREP", "goals": {"name": "BMWREP","slot":"peer_company"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The peer company information of BMWREP is 26", "dialog_acts": [{"act": "inform_peer_company+offer_name", "slots": [["name", "BMWREP"], ["peer_company", "26"]]}]}
+
+{"speaker": 1, "text": "the peer company of BMWREP", "goals": {"name": "BMWREP","slot":"peer_company"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The peer company information of BMWREP is 26", "dialog_acts": [{"act": "inform_peer_company+offer_name", "slots": [["name", "BMWREP"], ["peer_company", "26"]]}]}
+
+{"speaker": 1, "text": "show the insider transaction of BMWREP", "goals": {"name": "BMWREP","slot":"insider_transaction"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The insider transaction information of BMWREP is 27", "dialog_acts": [{"act": "inform_insider_transaction+offer_name", "slots": [["name", "BMWREP"], ["insider_transaction", "27"]]}]}
+
+{"speaker": 1, "text": "the insider transaction of BMWREP", "goals": {"name": "BMWREP","slot":"insider_transaction"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The insider transaction information of BMWREP is 27", "dialog_acts": [{"act": "inform_insider_transaction+offer_name", "slots": [["name", "BMWREP"], ["insider_transaction", "27"]]}]}
+
+{"speaker": 1, "text": "show the insider summary of BMWREP", "goals": {"name": "BMWREP","slot":"insider_summary"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The insider summary information of BMWREP is 28", "dialog_acts": [{"act": "inform_insider_summary+offer_name", "slots": [["name", "BMWREP"], ["insider_summary", "28"]]}]}
+
+{"speaker": 1, "text": "the insider summary of BMWREP", "goals": {"name": "BMWREP","slot":"insider_summary"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The insider summary information of BMWREP is 28", "dialog_acts": [{"act": "inform_insider_summary+offer_name", "slots": [["name", "BMWREP"], ["insider_summary", "28"]]}]}
+
+{"speaker": 1, "text": "show the balance sheet of BMWREP", "goals": {"name": "BMWREP","slot":"balance_sheet"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The balance sheet of BMWREP is 29", "dialog_acts": [{"act": "inform_balance_sheet+offer_name", "slots": [["name", "BMWREP"], ["balance_sheet", "29"]]}]}
+
+{"speaker": 1, "text": "the balance sheet of BMWREP", "goals": {"name": "BMWREP","slot":"balance_sheet"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The balance sheet of BMWREP is 29", "dialog_acts": [{"act": "inform_balance_sheet+offer_name", "slots": [["name", "BMWREP"], ["balance_sheet", "29"]]}]}
+
+{"speaker": 1, "text": "show the cash flow of BMWREP", "goals": {"name": "BMWREP","slot":"cashflow"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The cash flow of BMWREP is 30", "dialog_acts": [{"act": "inform_cashflow+offer_name", "slots": [["name", "BMWREP"], ["cashflow", "30"]]}]}
+
+{"speaker": 1, "text": "the cash flow of BMWREP", "goals": {"name": "BMWREP","slot":"cashflow"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The cash flow of BMWREP is 30", "dialog_acts": [{"act": "inform_cashflow+offer_name", "slots": [["name", "BMWREP"], ["cashflow", "30"]]}]}
+
+{"speaker": 1, "text": "show the upcoming event of BMWREP", "goals": {"name": "BMWREP","slot":"upcoming_event"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The upcoming event of BMWREP is 35", "dialog_acts": [{"act": "inform_upcoming_event+offer_name", "slots": [["name", "BMWREP"], ["upcoming_event", "35"]]}]}
+
+{"speaker": 1, "text": "the upcoming event of BMWREP", "goals": {"name": "BMWREP","slot":"upcoming_event"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The upcoming event of BMWREP is 35", "dialog_acts": [{"act": "inform_upcoming_event+offer_name", "slots": [["name", "BMWREP"], ["upcoming_event", "35"]]}]}
+
+{"speaker": 1, "text": "show the key stats of BMWREP", "goals": {"name": "BMWREP","slot":"keystats"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The upcoming event of BMWREP is 31", "dialog_acts": [{"act": "inform_keystats+offer_name", "slots": [["name", "BMWREP"], ["keystats", "31"]]}]}
+
+{"speaker": 1, "text": "the key stats of BMWREP", "goals": {"name": "BMWREP","slot":"keystats"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The upcoming event of BMWREP is 31", "dialog_acts": [{"act": "inform_keystats+offer_name", "slots": [["name", "BMWREP"], ["keystats", "31"]]}]}
+
+{"speaker": 1, "text": "show the income statement of BMWREP", "goals": {"name": "BMWREP","slot":"income_statement"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The income statement of BMWREP is 32", "dialog_acts": [{"act": "inform_income_statement+offer_name", "slots": [["name", "BMWREP"], ["income_statement", "32"]]}]}
+
+{"speaker": 1, "text": "the income statement of BMWREP", "goals": {"name": "BMWREP","slot":"income_statement"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The income statement of BMWREP is 32", "dialog_acts": [{"act": "inform_income_statement+offer_name", "slots": [["name", "BMWREP"], ["income_statement", "32"]]}]}
+
+{"speaker": 1, "text": "show the financials of BMWREP", "goals": {"name": "BMWREP","slot":"financials"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The financials of BMWREP is 33", "dialog_acts": [{"act": "inform_financials+offer_name", "slots": [["name", "BMWREP"], ["financials", "33"]]}]}
+
+{"speaker": 1, "text": "the financials of BMWREP", "goals": {"name": "BMWREP","slot":"financials"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The financials of BMWREP is 33", "dialog_acts": [{"act": "inform_financials+offer_name", "slots": [["name", "BMWREP"], ["financials", "33"]]}]}
+
+{"speaker": 1, "text": "show the market volume of BMWREP", "goals": {"name": "BMWREP","slot":"financials"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The realtime market volume is 34", "dialog_acts": [{"act": "inform_market_volume+offer_name", "slots": [["name", "BMWREP"], ["market_volume", "34"]]}]}
+
+{"speaker": 1, "text": "the market volume of BMWREP", "goals": {"name": "BMWREP","slot":"financials"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The realtime market volume is 34", "dialog_acts": [{"act": "inform_market_volume+offer_name", "slots": [["name", "BMWREP"], ["market_volume", "34"]]}]}
+
+{"speaker": 1, "text": "show the news of BMWREP", "goals": {"name": "BMWREP","slot":"news"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The news of BMWREP is 36", "dialog_acts": [{"act": "inform_news+offer_name", "slots": [["name", "BMWREP"], ["news", "36"]]}]}
+
+{"speaker": 1, "text": "the news of BMWREP", "goals": {"name": "BMWREP","slot":"news"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The news of BMWREP is 36", "dialog_acts": [{"act": "inform_news+offer_name", "slots": [["name", "BMWREP"], ["news", "36"]]}]}
+
+{"speaker": 1, "text": "what's the realtime price of BMWREP?", "goals": {"name": "BMWREP","slot":"realtime"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The realtime price of BMWREP is 22", "dialog_acts": [{"act": "inform_name+offer_realtime", "slots": [["name", "BMWREP"], ["realtime", "22"]]}]}
+
+{"speaker": 1, "text": "show the basic information of BMWREP", "goals": {"name": "BMWREP","slot":"company"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The basic information of BMWREP is 25", "dialog_acts": [{"act": "inform_company+offer_name", "slots": [["name", "BMWREP"], ["company", "25"]]}]}
+
+{"speaker": 1, "text": "what's the historical price of BMWREP?", "goals": {"name": "BMWREP","slot":"historical"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The historical price of BMWREP is 23", "dialog_acts": [{"act": "inform_historical+offer_name", "slots": [["name", "BMWREP"], ["historical", "23"]]}]}
+
+{"speaker": 1, "text": "realtime price of BMWREP?", "goals": {"name": "BMWREP","slot":"realtime"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The realtime price of BMWREP is 22", "dialog_acts": [{"act": "inform_name+offer_realtime", "slots": [["name", "BMWREP"], ["realtime", "22"]]}]}
+
+{"speaker": 1, "text": "logo of BMWREP?", "goals": {"name": "BMWREP","slot":"logo"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The logo of BMWREP is 24", "dialog_acts": [{"act": "inform_logo+offer_name", "slots": [["name", "BMWREP"], ["logo", "24"]]}]}
+
+{"speaker": 1, "text": "realtime price of BMWREP?", "goals": {"name": "BMWREP","slot":"realtime"}, "dialog_acts": [{"slots": [["name", "BMWREP"]], "act": "inform"}]}
+{"speaker": 2, "text": "api_call name=\"BMWREP\"", "dialog_acts": [{"act": "api_call", "slots": [["name", "BMWREP"]]}], "db_result": {"name": "BMWREP","realtime": "22","historical": "23","logo": "24","company":"25","peer_company":"26","insider_transaction":"27","insider_summary":"28","balance_sheet":"29","cashflow":"30","keystats":"31","income_statement":"32","financials":"33","market_volume":"34","upcoming_event":"35","news":"36"}}
+{"speaker": 2, "text": "The realtime price of BMWREP is 22", "dialog_acts": [{"act": "inform_name+offer_realtime", "slots": [["name", "BMWREP"], ["realtime", "22"]]}]}
