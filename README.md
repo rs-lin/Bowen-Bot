@@ -17,6 +17,7 @@ Currently the effort is focused on the following intents:
 
 ## Usage
 Sample questions include *"realtime price of AAPL"* and *"What's the balance sheet of Tesla"*
+<br>
 <img src="https://github.com/rs-lin/Bowen-Bot/blob/master/assets/sc1.jpg" width="200" height="340">
 <img src="https://github.com/rs-lin/Bowen-Bot/blob/master/assets/sc2.jpg" width="200" height="340">
 <img src="https://github.com/rs-lin/Bowen-Bot/blob/master/assets/sc3.jpg" width="200" height="340">
