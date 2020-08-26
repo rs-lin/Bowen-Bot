@@ -17,6 +17,6 @@ Currently the effort is focused on the following intents:
 
 ## Usage
 Sample questions include *"realtime price of AAPL"* and *"What's the balance sheet of Tesla"*
-![Alt chat screenshot1](Landing-Page-Animation/assets/sc1.jpg)
-![Alt chat screenshot2](Landing-Page-Animation/assets/sc2.jpg)
-![Alt chat screenshot3](Landing-Page-Animation/assets/sc3.jpg)
+![Alt chat screenshot1](/Landing-Page-Animation/assets/sc1.jpg)
+![Alt chat screenshot2](/Landing-Page-Animation/assets/sc2.jpg)
+![Alt chat screenshot3](/Landing-Page-Animation/assets/sc3.jpg)
