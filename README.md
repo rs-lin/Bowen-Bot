@@ -17,6 +17,8 @@ Currently the effort is focused on the following intents:
 
 ## Usage
 Sample questions include *"realtime price of AAPL"* and *"What's the balance sheet of Tesla"*
+![chat screenshot1](/assets/sc1.jpg){:class="img-responsive"}
+![chat screenshot1](/assets/sc1.jpg){:height="50%" width="50%"}
 ![chat screenshot1](/assets/sc1.jpg){:height="173px" width="100px"}
 ![chat screenshot2](/assets/sc2.jpg){:height="173px" width="100px"}
 ![chat screenshot3](/assets/sc3.jpg){:height="173px" width="100px"}
