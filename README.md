@@ -2,6 +2,9 @@
 @BowenMarketBot
 A Telegram bot that can retrieve realtime financial market data of US publicly traded stocks
 
+## Try Yourself!
+https://t.me/BowenMarketBot
+
 ## Libraries used
 [Deeppavlov](https://github.com/deepmipt/DeepPavlov)
 
